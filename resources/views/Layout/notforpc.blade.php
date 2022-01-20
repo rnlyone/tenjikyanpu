@@ -49,7 +49,7 @@
                 <div class="container">
                     <div class="header-navbar">
                         <div class="header-logo">
-                            <a href="/"><img src="assets/media/logo.svg" alt="logo"></a>
+                            <a href="/"><img src="{{asset("assets/media/logo.png")}}" alt="logo" style="max-width:15%;height: auto"></a>
                         </div>
                         <div class="header-main-nav">
                             <!-- Start Mainmanu Nav -->
@@ -88,7 +88,7 @@
                                 Kami Mohon Maaf, :'(<br>
                             </h1>
                             <h3 class="h3 text-light" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
-                                Aplikasi Tenji Kyanpu Hanya tersedia di Smartphone :)
+                                Aplikasi Web Tenji Kyanpu Hanya tersedia di Smartphone :)
                             </h3>
                         </div>
                     </div>
