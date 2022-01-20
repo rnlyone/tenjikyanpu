@@ -42,15 +42,20 @@
         </div>
 
         <div id="footer-bar" class="footer-bar footer-bar-detached">
-            <a href="index-pages.html" class="{{$radio ?? ''}}"><i class="bi bi-broadcast-pin font-15"></i><span>Radio</span></a>
-            <a href="index-components.html" class="{{$schedule ?? ''}}"><i class="bi bi-clock-fill font-17"></i><span>Schedule</span></a>
+            <a href="index-pages.html" class="{{$radio ?? ''}}"><i
+                    class="bi bi-broadcast-pin font-15"></i><span>Radio</span></a>
+            <a href="index-components.html" class="{{$schedule ?? ''}}"><i
+                    class="bi bi-clock-fill font-17"></i><span>Schedule</span></a>
             <a href="/" class="{{$home ?? ''}}"><i class="bi bi-house-fill font-16"></i><span>Home</span></a>
-            <a href="index-media.html" class="{{$live ?? ''}}"><i class="bi bi-play-btn-fill font-16"></i><span>Live</span></a>
+            <a href="index-media.html" class="{{$live ?? ''}}"><i
+                    class="bi bi-play-btn-fill font-16"></i><span>Live</span></a>
             @auth
-            <a href="index-media.html" class="{{$notifications ?? ''}}"><i class="bi bi-person-fill font-16"></i><span>Profile</span></a>
+            <a href="index-media.html" class="{{$notifications ?? ''}}"><i
+                    class="bi bi-person-fill font-16"></i><span>Profile</span></a>
             @endauth
             @guest
-            <a href="login" class="{{$notifications ?? ''}}"><i class="bi bi-person-fill font-16"></i><span>Profile</span></a>
+            <a data-bs-toggle="offcanvas" data-bs-target="#menu-login" class="{{$notifications ?? ''}}"><i
+                    class="bi bi-person-fill font-16"></i><span>Profile</span></a>
             @endguest
         </div>
 
@@ -60,4 +65,37 @@
 
         <div id="menu-bell" data-menu-load="notifications" style="height:400px;"
             class="offcanvas offcanvas-top offcanvas-detached rounded-m">
+        </div>
+
+        <div class="offcanvas offcanvas-bottom rounded-m offcanvas-detached bg-theme" id="menu-login">
+            <div class="content">
+                <h5 class="mb-n1 font-12 color-highlight font-700 text-uppercase pt-1">Welcome</h5>
+                <h1 class="font-24 font-800 mb-3">Login</h1>
+                <form action="login" method="post">
+                    @csrf
+                    <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
+                        <i class="bi bi-person-circle font-13"></i>
+                        <input name="username" type="text" class="form-control rounded-xs" id="c1" placeholder="Username" />
+                        <label for="c1" class="color-theme">Username</label>
+                        <span>(required)</span>
+                    </div>
+                    <div class="form-custom form-label form-border form-icon mb-4 bg-transparent">
+                        <i class="bi bi-asterisk font-13"></i>
+                        <input name="password" type="password" class="form-control rounded-xs" id="c2" placeholder="Password" />
+                        <label for="c2" class="color-theme">Password</label>
+                        <span>(required)</span>
+                    </div>
+                    <button type="submit" class="btn btn-full gradient-green shadow-bg shadow-bg-s mt-4">SIGN IN</button>
+                    <div class="row">
+                        <div class="col-6 text-start">
+                            <a href="#" data-bs-toggle="offcanvas" data-bs-target="#menu-forgot"
+                                class="font-11 color-theme opacity-40 pt-3 d-block">Forgot Password?</a>
+                        </div>
+                        <div class="col-6 text-end">
+                            <a href="#" data-bs-toggle="offcanvas" data-bs-target="#menu-register"
+                                class="font-11 color-theme opacity-40 pt-3 d-block">Create Account</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
