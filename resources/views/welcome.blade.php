@@ -1,4 +1,4 @@
-@include('layout.app')
+@include('Layout.app')
 
 <div class="page-content header-clear-medium">
     <div class="splide single-slider slider-no-dots slider-no-arrows slider-boxed text-center mt-n2"
