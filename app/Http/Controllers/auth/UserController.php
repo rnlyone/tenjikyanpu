@@ -9,6 +9,14 @@ use App\Models\User;
 
 class UserController extends Controller
 {
+    public function profileindex()
+    {
+        if(Auth::check()){
+            return view('profile', ['profile' => 'active-nav']);
+        }
+        return view('login');
+    }
+
     public function login(Request $request)
     {
 

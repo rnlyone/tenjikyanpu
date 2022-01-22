@@ -27,6 +27,17 @@
                         <div class="card-overlay bg-gradient-fade"></div>
                     </a>
                 </div>
+                <div class="splide__slide">
+                    <a href="https://smuneljc.xyz/" target="_blank"
+                        class="card card-style mx-0 shadow-card shadow-card-m bg-regis" data-card-height="230">
+                        <div class="card-bottom pb-3 px-3 text-center">
+                            <h3 class="color-white mb-1">Pendaftaran Lomba</h3>
+                            <p class="color-white opacity-80 mb-0 mt-n1 font-14">Silahkan Untuk Mendaftar disini
+                            </p>
+                        </div>
+                        <div class="card-overlay bg-gradient-fade"></div>
+                    </a>
+                </div>
             </div>
         </div>
         <div class="card card-style">

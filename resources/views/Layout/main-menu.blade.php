@@ -56,31 +56,26 @@
 <span class="menu-divider">NAVIGATION</span>
 <div class="menu-list">
     <div class="card card-style rounded-m p-3 py-2 mb-0">
-        <a href="index.html" id="nav-homes"><i
-                class="gradient-blue shadow-bg shadow-bg-xs bi bi-house-fill"></i><span>Homepage</span><i
+        <a href="/" id="nav-homes"><i
+                class="gradient-blue shadow-bg shadow-bg-xs bi bi-house-fill"></i><span>Home</span><i
                 class="bi bi-chevron-right"></i></a>
-        <a href="index-components.html" id="nav-comps"><i
-                class="gradient-red shadow-bg shadow-bg-xs bi bi-gear-fill"></i><span>Components</span><i
+        <a href="radio" id="nav-comps"><i
+                class="gradient-red shadow-bg shadow-bg-xs bi bi-broadcast-pin"></i><span>Radio</span><i
                 class="bi bi-chevron-right"></i></a>
-        <a href="index-pages.html" id="nav-pages"><i
-                class="gradient-green shadow-bg shadow-bg-xs bi bi-heart-fill"></i><span>Site Pages</span><i
+        <a href="schedule" id="nav-pages"><i
+                class="gradient-green shadow-bg shadow-bg-xs bi bi-clock-fill"></i><span>Schedule</span><i
                 class="bi bi-chevron-right"></i></a>
-        <a href="index-media.html" id="nav-media"><i
-                class="gradient-yellow shadow-bg shadow-bg-xs bi bi-image-fill"></i><span>Media Styles</span><i
+        <a href="live" id="nav-media"><i
+                class="gradient-yellow shadow-bg shadow-bg-xs bi bi-play-btn-fill"></i><span>Live</span><i
                 class="bi bi-chevron-right"></i></a>
-        <a href="index-contact.html" id="nav-mails"><i
-                class="gradient-magenta shadow-bg shadow-bg-xs bi bi-envelope-fill"></i><span>Contact</span><i
+        <a href="profile" id="nav-mails"><i
+                class="gradient-magenta shadow-bg shadow-bg-xs bi bi-person-fill"></i><span>Profile</span><i
                 class="bi bi-chevron-right"></i></a>
     </div>
 </div>
 <span class="menu-divider mt-4">SETTINGS</span>
 <div class="menu-list">
     <div class="card card-style rounded-m p-3 py-2 mb-0">
-        <a href="#">
-            <i class="gradient-highlight shadow-bg shadow-bg-xs bi bi-palette-fill"></i>
-            <span>Highlights</span>
-            <i class="bi bi-chevron-right"></i>
-        </a>
         <a href="#" data-toggle-theme data-trigger-switch="switch-1">
             <i class="gradient-dark shadow-bg shadow-bg-xs bi bi-moon-fill font-13"></i>
             <span>Dark Mode</span>
@@ -91,65 +86,7 @@
         </a>
     </div>
 </div>
-<span class="menu-divider mt-4">Messages</span>
-<div class="menu-content px-3">
-    <div class="card card-style rounded-m p-2 mx-0 bg-theme mb-0">
-        <div class="menu-list">
-            <a href="#"><img src="images/avatars/6s.png" alt="img" class="gradient-orange"><span
-                    class="font-500 color-theme">Olivia Orange</span><em class="badge badge-s bg-red-dark">3</em></a>
-            <a href="#"><img src="images/avatars/2s.png" alt="img" class="gradient-green"><span
-                    class="font-500 color-theme">Marcus Green</span><em class="badge badge-s bg-red-dark">5</em></a>
-            <a href="#"><img src="images/avatars/5s.png" alt="img" class="gradient-blue"><span
-                    class="font-500 color-theme">Danny Blueish</span><em class="badge badge-s bg-red-dark">1</em></a>
-        </div>
-    </div>
-</div>
-<span class="menu-divider mt-4">Latest Updates</span>
-<div class="menu-content px-3">
-    <div class="card card-style rounded-m p-2 mx-0 bg-theme">
-        <a href="#">
-            <div class="d-flex">
-                <div class="align-self-center">
-                    <img src="images/pictures/14s.jpg" class="rounded-s me-2" width="60" alt="img">
-                </div>
-                <div class="align-self-center">
-                    <h5 class="font-14 mb-0 ps-1 pt-1">Duo 3.0 Released</h5>
-                    <p class="ps-1 pb-1 mb-0 font-11 line-height-s opacity-70">
-                        New design, more components. Bootstrap 5 and Vanilla JS.
-                    </p>
-                </div>
-            </div>
-        </a>
-        <div class="mb-2"></div>
-        <a href="#">
-            <div class="d-flex">
-                <div class="align-self-center">
-                    <img src="images/pictures/5s.jpg" class="rounded-s me-2" width="60" alt="img">
-                </div>
-                <div class="align-self-center">
-                    <h5 class="font-14 mb-0 ps-1 pt-1">PWA Ready</h5>
-                    <p class="ps-1 pb-1 mb-0 font-11 line-height-s opacity-70">
-                        Add Duo to your home screen and enjoy it as you would a native app.
-                    </p>
-                </div>
-            </div>
-        </a>
-        <div class="mb-2"></div>
-        <a href="#">
-            <div class="d-flex">
-                <div class="align-self-center">
-                    <img src="images/pictures/11s.jpg" class="rounded-s me-2" width="60" alt="img">
-                </div>
-                <div class="align-self-center">
-                    <h5 class="font-14 mb-0 ps-1 pt-1">Care & Quality</h5>
-                    <p class="ps-1 pb-1 mb-0 font-11 line-height-s opacity-70">
-                        We love all our customers, and we're always here to help out.
-                    </p>
-                </div>
-            </div>
-        </a>
-    </div>
-</div>
+<span class="menu-divider mt-4"></span>
 <p class="text-center mb-0 mt-n3 pb-3 font-9 text-uppercase font-600 color-theme">Made with <i
-        class=" font-9 px-1 bi bi-heart-fill color-red-dark"></i> by Enabled in <span class="copyright-year"></span>.
+        class=" font-9 px-1 bi bi-heart-fill color-red-dark"></i> by SmunelJC <span class="copyright-year"></span>.
 </p>

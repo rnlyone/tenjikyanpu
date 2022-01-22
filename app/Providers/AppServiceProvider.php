@@ -13,7 +13,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        if ($this->app->environment() !== 'production') {
+            $this->app->register(\Sven\ArtisanView\ServiceProvider::class);
+        }
     }
 
     /**
@@ -25,4 +27,6 @@ class AppServiceProvider extends ServiceProvider
     {
         //
     }
+
+
 }
