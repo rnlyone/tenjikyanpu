@@ -50,13 +50,13 @@
             <input type="text" name="id" value="{{$n->id}}" hidden>
             <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
                 <i class="bi bi-journals font-13"></i>
-                <select name="icons" class="form-select rounded-xs" id="c6" aria-label="Floating label select example">
+                <select name="icons" class="form-select rounded-xs" id="c6" aria-label="Floating label select example" required>
                     <option value="{{$n->icons}}">{{$n->icons}}</option>
                     <option value="bi-alarm">bi-alarm</option>
                     <option value="bi-brush">bi-brush</option>
                     <option value="bi-check-circle">bi-check-circle</option>
                     <option value="bi-exclamation-diamond">bi-exclamation-diamond</option>
-                    <option value="bi-balloon-heart-fill">bi-balloon-heart-fill</option>
+                    <option value="bi-heart-fill">bi-heart-fill</option>
                 </select>
             </div>
             <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
@@ -119,13 +119,13 @@
             <h1 class="font-24 font-800 mb-3">Notifikasi</h1>
             <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
                 <i class="bi bi-journals font-13"></i>
-                <select name="icons" class="form-select rounded-xs" id="c6" aria-label="Floating label select example">
+                <select name="icons" class="form-select rounded-xs" id="c6" aria-label="Floating label select example" required>
                     <option value="">Icons</option>
                     <option value="bi-alarm">bi-alarm</option>
                     <option value="bi-brush">bi-brush</option>
                     <option value="bi-check-circle">bi-check-circle</option>
                     <option value="bi-exclamation-diamond">bi-exclamation-diamond</option>
-                    <option value="bi-balloon-heart-fill">bi-balloon-heart-fill</option>
+                    <option value="bi-heart-fill">bi-heart-fill</option>
                 </select>
             </div>
             <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
