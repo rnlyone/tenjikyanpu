@@ -1,12 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
 
-@php
-    use App\Models\Notif;
-
-    $ntotal = Notif::all()->count();
-@endphp
-
 <!-- Mirrored from www.enableds.com/products/duo/v30/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 18 Jan 2022 17:30:37 GMT -->
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
@@ -36,15 +30,13 @@
     <div id="page">
 
         <div class="header-bar header-fixed header-app header-bar-detached">
-            <a data-bs-toggle="offcanvas" data-bs-target="#menu-main" href="#"><i
-                    class="bi bi-list color-theme"></i></a>
-            <a href="#" class="header-title color-theme">
-                <img class="logo"></a>
+            <a data-back-button="" href="#"><i class="bi bi-caret-left-fill font-11 color-theme ps-2"></i></a>
+            <a href="#" class="header-title color-theme font-13">{{$pagetitle}}</a>
             <a href="#" data-bs-toggle="offcanvas" data-bs-target="#menu-bell"><em
-                    class="badge bg-highlight ms-1">{{$ntotal}}</em><i class="font-14 bi bi-bell-fill"></i></a>
-            <a href="#" class="show-on-theme-light" data-toggle-theme><i class="bi bi-moon-fill font-13"></i></a>
-            <a href="#" class="show-on-theme-dark" data-toggle-theme><i
-                    class="bi bi-lightbulb-fill color-yellow-dark font-13"></i></a>
+                class="badge bg-highlight ms-1">3</em><i class="font-14 bi bi-bell-fill"></i></a>
+        <a href="#" class="show-on-theme-light" data-toggle-theme><i class="bi bi-moon-fill font-13"></i></a>
+        <a href="#" class="show-on-theme-dark" data-toggle-theme><i
+                class="bi bi-lightbulb-fill color-yellow-dark font-13"></i></a>
         </div>
 
         <div id="footer-bar" class="footer-bar footer-bar-detached">
@@ -63,7 +55,7 @@
             class="offcanvas offcanvas-start offcanvas-detached rounded-m">
         </div>
 
-        <div id="menu-bell" data-menu-load="topnotif" style="height:400px;"
+        <div id="menu-bell" data-menu-load="notifications" style="height:400px;"
             class="offcanvas offcanvas-top offcanvas-detached rounded-m">
         </div>
 

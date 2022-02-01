@@ -29,10 +29,8 @@
             <div class="dropdown-menu  bg-transparent border-0 mt-n1 ms-3">
                 <div class="card card-style rounded-m shadow-xl mt-1 me-1">
                     <div class="list-group list-custom list-group-s list-group-flush rounded-xs px-3 py-1">
-                        <a href="page-profile-admin.html" class="color-theme opacity-70 list-group-item py-1"><strong
+                        <a href="profile" class="color-theme opacity-70 list-group-item py-1"><strong
                                 class="font-500 font-12">Your Profile</strong><i class="bi bi-chevron-right"></i></a>
-                        <a href="page-activity.html" class="color-theme opacity-70 list-group-item py-1"><strong
-                                class="font-500 font-12">Notifications</strong><i class="bi bi-chevron-right"></i></a>
                         <a href="logout" class="color-theme opacity-70 list-group-item py-1"><strong
                                 class="font-500 font-12">Log Out</strong><i class="bi bi-chevron-right"></i></a>
                     </div>
@@ -65,14 +63,38 @@
         <a href="schedule" id="nav-pages"><i
                 class="gradient-green shadow-bg shadow-bg-xs bi bi-clock-fill"></i><span>Schedule</span><i
                 class="bi bi-chevron-right"></i></a>
-        <a href="live" id="nav-media"><i
-                class="gradient-yellow shadow-bg shadow-bg-xs bi bi-play-btn-fill"></i><span>Live</span><i
+        <a href="media" id="nav-media"><i
+                class="gradient-yellow shadow-bg shadow-bg-xs bi bi-play-btn-fill"></i><span>Media</span><i
                 class="bi bi-chevron-right"></i></a>
         <a href="profile" id="nav-mails"><i
                 class="gradient-magenta shadow-bg shadow-bg-xs bi bi-person-fill"></i><span>Profile</span><i
                 class="bi bi-chevron-right"></i></a>
     </div>
 </div>
+@auth
+@if (auth()->user()->auth == 'Panitia')
+<span class="menu-divider mt-4">Menu Panitia</span>
+<div class="menu-list">
+    <div class="card card-style rounded-m p-3 py-2 mb-0">
+        <a href="/notifhandler" id="nav-homes"><i
+                class="gradient-red shadow-bg shadow-bg-xs bi bi-house-fill"></i><span>Notification Handler</span><i
+                class="bi bi-chevron-right"></i></a>
+        <a href="radio" id="nav-comps"><i
+                class="gradient-red shadow-bg shadow-bg-xs bi bi-broadcast-pin"></i><span>Radio Requests</span><i
+                class="bi bi-chevron-right"></i></a>
+        <a href="schedule" id="nav-pages"><i
+                class="gradient-red shadow-bg shadow-bg-xs bi bi-clock-fill"></i><span>Registrations</span><i
+                class="bi bi-chevron-right"></i></a>
+        <a href="user" id="nav-media"><i
+                class="gradient-red shadow-bg shadow-bg-xs bi bi-play-btn-fill"></i><span>Users</span><i
+                class="bi bi-chevron-right"></i></a>
+        <a href="schedule" id="nav-media"><i
+            class="gradient-red shadow-bg shadow-bg-xs bi bi-play-btn-fill"></i><span>Schedule Handler</span><i
+            class="bi bi-chevron-right"></i></a>
+    </div>
+</div>
+@endif
+@endauth
 <span class="menu-divider mt-4">SETTINGS</span>
 <div class="menu-list">
     <div class="card card-style rounded-m p-3 py-2 mb-0">

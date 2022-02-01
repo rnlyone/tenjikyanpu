@@ -17382,3 +17382,9 @@ input[type=range]::-webkit-slider-thumb {
     background: inherit;
     z-index: -1
 }
+
+.tabs-pill a[aria-expanded=true] {
+    background-color: #da4453;
+    border-color: #da4453;
+    color: #fff !important
+}

@@ -17,7 +17,7 @@ class UserFactory extends Factory
         return [
             'username' => $this->faker->userName(),
             'nama' => $this->faker->Name(),
-            'auth' => $this->faker->randomElement($array = array ('panitia','peserta','juri')),
+            'auth' => $this->faker->randomElement($array = array ('Panitia','Peserta','Juri')),
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
             'jc' => $this->faker->randomElement($array = array ('21','05', '08', '02', '17')),
             'gender' => $this->faker->randomElement($array = array ('pria','wanita')),
