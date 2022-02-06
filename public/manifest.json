@@ -1,0 +1,32 @@
+{
+    "background_color": "#ffffff",
+    "categories": ["social", "competitions", "educations"],
+    "description": "Practical Training Competition Nihonbu Doumei",
+    "display": "standalone",
+    "gcm_sender_id": "49625052041",
+    "gcm_user_visible_only": true,
+    "icons": [{
+        "src": "https://tenji.smuneljc.xyz/appicons/196",
+        "sizes": "196x196",
+        "type": "image/png"
+    }, {
+        "src": "https://tenji.smuneljc.xyz/appicons/512",
+        "sizes": "512x512",
+        "type": "image/png"
+    }, {
+        "purpose": "maskable",
+        "src": "https://tenji.smuneljc.xyz/appicons/196",
+        "sizes": "196x196",
+        "type": "image/png"
+    }, {
+        "purpose": "maskable",
+        "src": "https://tenji.smuneljc.xyz/appicons/512",
+        "sizes": "512x512",
+        "type": "image/png"
+    }],
+    "name": "Tenji Kyanpu",
+    "short_name": "TenKya",
+    "start_url": "https://tenji.smuneljc.xyz/",
+    "theme_color": "#ffffff",
+    "scope": "/"
+}

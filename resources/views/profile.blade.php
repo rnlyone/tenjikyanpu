@@ -28,8 +28,7 @@
                     @endif
                 </p>
                 <p class="font-10">
-                    <strong class="color-theme pe-1">1k</strong>Followers
-                    <strong class="color-theme ps-3 pe-1">342</strong>Following
+                    <strong class="color-theme">@</strong>{{auth()->user()->username}}
                 </p>
             </div>
         </div>
