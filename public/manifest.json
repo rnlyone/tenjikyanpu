@@ -1,13 +1,13 @@
 {
     "background_color": "#ffffff",
-    "categories": ["social", "competitions", "educations"],
+    "categories": ["social", "news", "magazines"],
     "description": "Practical Training Competition Nihonbu Doumei",
     "display": "standalone",
     "gcm_sender_id": "49625052041",
     "gcm_user_visible_only": true,
     "icons": [{
-        "src": "https://tenji.smuneljc.xyz/appicons/196",
-        "sizes": "196x196",
+        "src": "https://tenji.smuneljc.xyz/appicons/192",
+        "sizes": "192x192",
         "type": "image/png"
     }, {
         "src": "https://tenji.smuneljc.xyz/appicons/512",
@@ -15,8 +15,8 @@
         "type": "image/png"
     }, {
         "purpose": "maskable",
-        "src": "https://tenji.smuneljc.xyz/appicons/196",
-        "sizes": "196x196",
+        "src": "https://tenji.smuneljc.xyz/appicons/192",
+        "sizes": "192x192",
         "type": "image/png"
     }, {
         "purpose": "maskable",
@@ -24,9 +24,76 @@
         "sizes": "512x512",
         "type": "image/png"
     }],
-    "name": "Tenji Kyanpu",
-    "short_name": "TenKya",
-    "start_url": "https://tenji.smuneljc.xyz/",
+    "name": "Twitter",
+    "screenshots": [{
+        "src": "https://abs.twimg.com/responsive-web/client-web/twitter-lite-data-saver-marketing.68059865.png",
+        "sizes": "586x1041",
+        "type": "image/png"
+    }, {
+        "src": "https://abs.twimg.com/responsive-web/client-web/twitter-lite-explore-marketing.fd45b025.png",
+        "sizes": "586x1041",
+        "type": "image/png"
+    }, {
+        "src": "https://abs.twimg.com/responsive-web/client-web/twitter-lite-timeline-marketing.befcdb45.png",
+        "sizes": "586x1041",
+        "type": "image/png"
+    }],
+    "share_target": {
+        "action": "compose/tweet",
+        "enctype": "multipart/form-data",
+        "method": "POST",
+        "params": {
+            "title": "title",
+            "text": "text",
+            "url": "url",
+            "files": [{
+                "name": "externalMedia",
+                "accept": ["image/jpeg", "image/png", "image/gif", "video/quicktime", "video/mp4"]
+            }]
+        }
+    },
+    "shortcuts": [{
+        "name": "Tweet Baru",
+        "url": "/compose/tweet?utm_source=jumplist&utm_medium=shortcut",
+        "icons": [{
+            "src": "https://tenji.smuneljc.xyz/appicons/icon-compose.12384425.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }]
+    }, {
+        "name": "Jelajahi",
+        "url": "/explore?utm_source=jumplist&utm_medium=shortcut",
+        "icons": [{
+            "src": "https://tenji.smuneljc.xyz/appicons/icon-search-stroke.5f9aa885.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }]
+    }, {
+        "name": "Notifikasi",
+        "url": "/notifications?utm_source=jumplist&utm_medium=shortcut",
+        "icons": [{
+            "src": "https://tenji.smuneljc.xyz/appicons/icon-notifications-stroke.429602d5.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }]
+    }, {
+        "name": "Direct Message",
+        "url": "/messages?utm_source=jumplist&utm_medium=shortcut",
+        "icons": [{
+            "src": "https://tenji.smuneljc.xyz/appicons/icon-messages-stroke.5f95edc5.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }]
+    }],
+    "short_name": "Twitter",
+    "start_url": "https://twitter.com/?utm_source=homescreen&utm_medium=shortcut",
     "theme_color": "#ffffff",
-    "scope": "/"
+    "scope": "/",
+    "android_package_name": "com.twitter.android",
+    "prefer_related_applications": true,
+    "related_applications": [{
+        "id": "com.twitter.android",
+        "platform": "chromeos_play",
+        "url": "https://play.google.com/store/apps/details?id=com.twitter.android"
+    }]
 }
