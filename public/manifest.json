@@ -6,21 +6,21 @@
     "gcm_sender_id": "49625052041",
     "gcm_user_visible_only": true,
     "icons": [{
-        "src": "https://tenji.smuneljc.xyz/appicons/192",
+        "src": "https://tenji.smuneljc.xyz/appicons/192.png",
         "sizes": "192x192",
         "type": "image/png"
     }, {
-        "src": "https://tenji.smuneljc.xyz/appicons/512",
+        "src": "https://tenji.smuneljc.xyz/appicons/512.png",
         "sizes": "512x512",
         "type": "image/png"
     }, {
         "purpose": "maskable",
-        "src": "https://tenji.smuneljc.xyz/appicons/192",
+        "src": "https://tenji.smuneljc.xyz/appicons/192.png",
         "sizes": "192x192",
         "type": "image/png"
     }, {
         "purpose": "maskable",
-        "src": "https://tenji.smuneljc.xyz/appicons/512",
+        "src": "https://tenji.smuneljc.xyz/appicons/512.png",
         "sizes": "512x512",
         "type": "image/png"
     }],
