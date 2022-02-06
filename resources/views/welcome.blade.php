@@ -125,7 +125,8 @@
                     Install Aplikasi Tenji Kyanpu Tanpa Harus Download Aplikasi.
                 </p>
                 <a href="#"
-                    class="pwa-install default-link btn btn-m rounded-s gradient-highlight shadow-bg shadow-bg-s px-5 mb-0 mt-2">Install Sekarang</a>
+                    class="pwa-install btn btn-m rounded-s text-uppercase font-900 gradient-highlight shadow-bg shadow-bg-s btn-full">Install Sekarang</a>
+
             </div>
         </div>
     </div>
