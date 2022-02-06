@@ -86,7 +86,7 @@ return [
                     "type" => "image/png"
                 ],
                 [
-                    "src" => "/images/screenshot.png",
+                    "src" => "/images/screenshot1.png",
                     "sizes" => "586x1041",
                     "type" => "image/png"
                 ],
