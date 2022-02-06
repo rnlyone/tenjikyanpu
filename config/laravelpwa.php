@@ -3,7 +3,7 @@
 return [
     'name' => 'Tenji Kyanpu',
     'manifest' => [
-        'name' => env('APP_NAME', 'Tenji Kyanpu'),
+        'name' => 'Tenji Kyanpu',
         'short_name' => 'Tenji Kyanpu',
         'start_url' => '/',
         'background_color' => '#F6EBE7',
