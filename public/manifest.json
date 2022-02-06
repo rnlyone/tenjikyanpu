@@ -48,7 +48,7 @@
             "name": "Home",
             "url": "/",
             "icons": [{
-                "src": "/192.png",
+                "src": "/appicons/192.png",
                 "type": "image/png",
                 "sizes": "192x192"
             }]
@@ -57,7 +57,7 @@
             "name": "Radio Request",
             "url": "/radio",
             "icons": [{
-                "src": "/192.png",
+                "src": "/appicons/192.png",
                 "type": "image/png",
                 "sizes": "192x192"
             }]
@@ -66,7 +66,7 @@
             "name": "Media",
             "url": "/media",
             "icons": [{
-                "src": "/192.png",
+                "src": "/appicons/192.png",
                 "type": "image/png",
                 "sizes": "192x192"
             }]
@@ -75,7 +75,7 @@
             "name": "Schedule",
             "url": "/schedule",
             "icons": [{
-                "src": "/192.png",
+                "src": "/appicons/192.png",
                 "type": "image/png",
                 "sizes": "192x192"
             }]
