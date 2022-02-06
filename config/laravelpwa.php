@@ -75,10 +75,27 @@ return [
         ],
         'custom' => [
             "prefer_related_applications" => true,
-            "related_applications" => [
+            "related_applications" => [[
                 "platform" => "webapp",
                 "url" => "/manifest.json"
+            ]],
+            "screenshots" => [
+                [
+                    "src" => "/images/screenshot.png",
+                    "sizes" => "586x1041",
+                    "type" => "image/png"
+                ],
+                [
+                    "src" => "/images/screenshot.png",
+                    "sizes" => "586x1041",
+                    "type" => "image/png"
+                ],
+                [
+                    "src" => "/images/screenshot.png",
+                    "sizes" => "586x1041",
+                    "type" => "image/png"]
             ],
+
             "scope" => "/",
             "gcm_sender_id" => "49625052041",
             "gcm_user_visible_only" => true,
