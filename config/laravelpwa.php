@@ -86,12 +86,12 @@ return [
                     "type" => "image/png"
                 ],
                 [
-                    "src" => "/images/screenshot.png",
+                    "src" => "/images/screenshot-1.png",
                     "sizes" => "586x1041",
                     "type" => "image/png"
                 ],
                 [
-                    "src" => "/images/screenshot.png",
+                    "src" => "/images/screenshot-2.png",
                     "sizes" => "586x1041",
                     "type" => "image/png"]
             ],
