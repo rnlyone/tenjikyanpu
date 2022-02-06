@@ -28,8 +28,9 @@
                     </a>
                 </div>
                 <div class="splide__slide">
-                    <a href="https://api.whatsapp.com/send?phone=6282292729852&text=Halo%20Kak,%20Mau%20Ikut%20Lomba%20Tenji%20Kyanpu!!" target="_blank"
-                        class="card card-style mx-0 shadow-card shadow-card-m bg-regis" data-card-height="230">
+                    <a href="https://api.whatsapp.com/send?phone=6282292729852&text=Halo%20Kak,%20Mau%20Ikut%20Lomba%20Tenji%20Kyanpu!!"
+                        target="_blank" class="card card-style mx-0 shadow-card shadow-card-m bg-regis"
+                        data-card-height="230">
                         <div class="card-bottom pb-3 px-3 text-center">
                             <h3 class="color-white mb-1">Pendaftaran Lomba</h3>
                             <p class="color-white opacity-80 mb-0 mt-n1 font-14">Silahkan Untuk Mendaftar disini
@@ -63,8 +64,8 @@
                 <div class="divider"></div>
                 <div class="tabs tabs-pill" id="tab-group-2">
                     <div class="tab-controls rounded-m p-1">
-                        <a class="font-12 rounded-m" data-bs-toggle="collapse" href="#tab-4"
-                            aria-expanded="true">Cerdas Cermat</a>
+                        <a class="font-12 rounded-m" data-bs-toggle="collapse" href="#tab-4" aria-expanded="true">Cerdas
+                            Cermat</a>
                         <a class="font-12 rounded-m" data-bs-toggle="collapse" href="#tab-5"
                             aria-expanded="false">Seiyuu</a>
                     </div>
@@ -113,6 +114,18 @@
                             style="height:auto;">
                     </a>
                 </div>
+            </div>
+        </div>
+
+        <div class="card card-style py-3">
+            <div class="content px-2 text-center">
+                <h5 class="mb-n1 font-12 color-highlight font-700 text-uppercase">Wattunami Mobile</h5>
+                <h2>Tambahkan Tenji Kyanpu</h2>
+                <p class="mb-3">
+                    Install Aplikasi Tenji Kyanpu Tanpa Harus Download Aplikasi.
+                </p>
+                <a href="#"
+                    class="pwa-install default-link btn btn-m rounded-s gradient-highlight shadow-bg shadow-bg-s px-5 mb-0 mt-2">Install Sekarang</a>
             </div>
         </div>
     </div>
