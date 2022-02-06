@@ -1,7 +1,7 @@
 {
     "background_color": "#ffffff",
     "categories": ["social", "news", "magazines"],
-    "description": "Practical Training Competition Nihonbu Doumei",
+    "description": "Dapatkan berita terkini, politik, musik yang sedang tren, peristiwa dunia, skor olahraga, dan berita global terbaru saat itu juga - dengan lebih hemat data.",
     "display": "standalone",
     "gcm_sender_id": "49625052041",
     "gcm_user_visible_only": true,
@@ -56,7 +56,7 @@
         "name": "Tweet Baru",
         "url": "/compose/tweet?utm_source=jumplist&utm_medium=shortcut",
         "icons": [{
-            "src": "https://tenji.smuneljc.xyz/appicons/icon-compose.12384425.png",
+            "src": "https://abs.twimg.com/responsive-web/client-web/icon-compose.12384425.png",
             "type": "image/png",
             "sizes": "192x192"
         }]
@@ -64,7 +64,7 @@
         "name": "Jelajahi",
         "url": "/explore?utm_source=jumplist&utm_medium=shortcut",
         "icons": [{
-            "src": "https://tenji.smuneljc.xyz/appicons/icon-search-stroke.5f9aa885.png",
+            "src": "https://abs.twimg.com/responsive-web/client-web/icon-search-stroke.5f9aa885.png",
             "type": "image/png",
             "sizes": "192x192"
         }]
@@ -72,7 +72,7 @@
         "name": "Notifikasi",
         "url": "/notifications?utm_source=jumplist&utm_medium=shortcut",
         "icons": [{
-            "src": "https://tenji.smuneljc.xyz/appicons/icon-notifications-stroke.429602d5.png",
+            "src": "https://abs.twimg.com/responsive-web/client-web/icon-notifications-stroke.429602d5.png",
             "type": "image/png",
             "sizes": "192x192"
         }]
@@ -80,7 +80,7 @@
         "name": "Direct Message",
         "url": "/messages?utm_source=jumplist&utm_medium=shortcut",
         "icons": [{
-            "src": "https://tenji.smuneljc.xyz/appicons/icon-messages-stroke.5f95edc5.png",
+            "src": "https://abs.twimg.com/responsive-web/client-web/icon-messages-stroke.5f95edc5.png",
             "type": "image/png",
             "sizes": "192x192"
         }]
