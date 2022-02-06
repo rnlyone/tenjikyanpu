@@ -1,4 +1,4 @@
-@include('Layout.app')
+@include('Layout.noapp')
 
 <div class="page-content mb-0 pb-0">
     <div class="card card-style mb-0 bg-transparent shadow-0 bg-20 mx-0 rounded-0" data-card-height="cover">

@@ -1,9 +1,7 @@
 var staticCacheName = "pwa-v" + new Date().getTime();
 var filesToCache = [
     '/offline',
-    '/',
-    '/css/app.css',
-    '/js/app.js',
+    '/v30/images/pictures/20.png',
     '/images/icons/icon-72x72.png',
     '/images/icons/icon-96x96.png',
     '/images/icons/icon-128x128.png',
@@ -21,52 +19,57 @@ var filesToCache = [
     '/images/icons/splash-1536x2048.png',
     '/images/icons/splash-1668x2224.png',
     '/images/icons/splash-1668x2388.png',
-    '/images/icons/splash-2048x2732.png'
+    '/images/icons/splash-2048x2732.png',
+    '/v30/scripts/bootstrap.min.js',
+    '/assets/css/vendor/bootstrap.min.css',
+    '/v30/fonts/bootstrap-icons.css',
+    '/v30/styles/bootstrap.css',
+    '/v30/scripts/custom.js'
 ];
-
-const CACHE_NAME = 'offline';
+var APP_NAME = 'Kyanpu';
+var APP_VER = '1.0';
+var CACHE_NAME = APP_NAME + '-' + APP_VER;
 const OFFLINE_URL = '/offline';
+
+var APP_DIAG = false;
 
 // Cache on install
 self.addEventListener('install', function(event) {
-    console.log('[ServiceWorker] Install');
+	event.waitUntil(
+		caches.open(CACHE_NAME)
+		.then(function(cache) {
+			//Adding files to cache
+			return cache.addAll(filesToCache);
+		}).catch(function(error) {
+			//Output error if file locations are incorrect
+			if(APP_DIAG){console.log('Service Worker Cache: Error Check filesToCache array in _service-worker.js - files are missing or path to files is incorrectly written -  ' + error);}
+		})
+		.then(function() {
+			//Install SW if everything is ok
+			return self.skipWaiting();
+		})
+		.then(function(){
+			if(APP_DIAG){console.log('Service Worker: Cache is OK');}
+		})
+	);
+	if(APP_DIAG){console.log('Service Worker: Installed');}
+});
 
-    event.waitUntil((async () => {
-      const cache = await caches.open(CACHE_NAME);
-      // Setting {cache: 'reload'} in the new request will ensure that the response
-      // isn't fulfilled from the HTTP cache; i.e., it will be from the network.
-      await cache.add(new Request(OFFLINE_URL, {cache: 'reload'}));
-      await cache.add(new Request(filesToCache, {cache: 'reload'}));
-    })());
-
-    self.skipWaiting();
-  });
-
-  self.addEventListener('activate', (event) => {
-    console.log('[ServiceWorker] Activate');
-    event.waitUntil((async () => {
-      // Enable navigation preload if it's supported.
-      // See https://developers.google.com/web/updates/2017/02/navigation-preload
-      if ('navigationPreload' in self.registration) {
-        await self.registration.navigationPreload.enable();
-      }
-    })());
-
-    // Tell the active service worker to take control of the page immediately.
-    self.clients.claim();
-  });
-
-// Serve from Cache
-self.addEventListener("fetch", event => {
-    event.respondWith(
-        caches.match(event.request)
-        .then(response => {
-            return response || fetch(event.request);
-        })
-        .catch(() => {
-            return caches.match('/offline');
-        })
-    )
+// Clear cache on activate
+self.addEventListener('activate', function(event) {
+	event.waitUntil(self.clients.claim());
+	event.waitUntil(
+		//Check cache number, clear all assets and re-add if cache number changed
+		caches.keys().then(cacheNames => {
+			return Promise.all(
+				cacheNames
+					.filter(cacheName => (cacheName.startsWith(APP_NAME + "-")))
+					.filter(cacheName => (cacheName !== CACHE_NAME))
+					.map(cacheName => caches.delete(cacheName))
+			);
+		})
+	);
+	if(APP_DIAG){console.log('Service Worker: Activated')}
 });
 
 self.addEventListener('fetch', function(event) {
@@ -91,4 +94,3 @@ self.addEventListener('fetch', function(event) {
       })());
     }
   });
-
