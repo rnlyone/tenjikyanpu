@@ -117,7 +117,7 @@
             </div>
         </div>
 
-        <div class="card card-style py-3">
+        {{-- <div class="card card-style py-3">
             <div class="content px-2 text-center">
                 <h5 class="mb-n1 font-12 color-highlight font-700 text-uppercase">Wattunami Mobile</h5>
                 <h2>Tambahkan Tenji Kyanpu</h2>
@@ -129,7 +129,7 @@
 
             </div>
         </div>
-    </div>
+    </div> --}}
 
 
 
