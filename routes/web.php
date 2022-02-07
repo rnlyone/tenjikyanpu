@@ -42,7 +42,7 @@ Route::get('profile', [UserController::class, 'profileindex']);
 
 Route::get('/', function () {return view('welcome', ['home' => 'active-nav']);});
 
-Route::get('/radio', function () {return view('Layout.comingsoon', ['radio' => 'active-nav']);});
+Route::get('/radio', function () {return view('Radio', ['radio' => 'active-nav']);});
 
 Route::get('/notifications', function () {return view('notifications', ['notifications' => 'active-nav']);});
 Route::get('/topnotif', [NotifController::class, 'indexNotif']);

@@ -6,10 +6,10 @@ return [
         'name' => 'Tenji Kyanpu',
         'short_name' => 'Tenji Kyanpu',
         'start_url' => '/',
-        'background_color' => '#F6EBE7',
-        'theme_color' => '#F6EBE7',
+        'background_color' => '#ffffff',
+        'theme_color' => '#ffffff',
         'display' => 'standalone',
-        'orientation'=> 'any',
+        'orientation'=> 'portrait',
         'status_bar'=> 'black',
         'icons' => [
             '72x72' => [

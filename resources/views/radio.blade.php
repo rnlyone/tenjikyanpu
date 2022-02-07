@@ -2,11 +2,32 @@
 
 <div class="page-content header-clear-medium">
     <div class="card card-style">
+        <div class="content mb-0">
+            <h5 class="color-highlight font-13 mb-n1">Belum Berfungsi</h5>
+            <h1 class="font-700 pb-0">Radio Request</h1>
+            <p class="mb-3">
+                Maaf, Radio Request Hanya Tersedia Pada Hari Acara Tenji Kyanpu.
+            </p>
+        </div>
+    </div>
+
+    {{-- <div class="card card-style">
+        <div class="content mb-0">
+            <h5 class="color-highlight font-13 mb-n1">Tenji Kyanpu</h5>
+            <h1 class="font-700 pb-0">Radio Request</h1>
+            <p class="mb-3">
+                Request Lagu Jepang Mu disini dan Tunggu Pesanmu dibaca Oleh Master Of Ceremony.
+            </p>
+        </div>
+    </div> --}}
+
+    <div class="card card-style">
         <div class="content">
             <h6 class="font-700 mb-n1 color-highlight">Radio Request</h6>
-            <h1 class="pb-2">Request Disini</h1>
+            <h2 class="pb-2">Request Disini</h2>
             <form method="POST" class="demo-animation needs-validation m-0" novalidate="">
                 @csrf
+                <fieldset disabled="disabled">
                 <div class="form-custom mb-3 form-label form-border">
                     <i class="bi bi-person-circle font-14 disabled"></i>
                     <input type="text" name="nama" class="form-control rounded-xs" id="c1" placeholder="Nama"
@@ -40,6 +61,7 @@
                 </div>
                 <button class="btn btn-full bg-highlight rounded-xs text-uppercase font-700 w-100 btn-s mt-4"
                     type="submit">Submit</button>
+                </fieldset>
             </form>
         </div>
     </div>
