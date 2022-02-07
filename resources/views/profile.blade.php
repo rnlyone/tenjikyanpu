@@ -35,7 +35,7 @@
         <div class="content">
             <div class="row mb-0">
                 <div class="col-6">
-                    <a href="#"
+                    <a href="https://chat.whatsapp.com/HBWfRbiZzRV6WrxhHcRpOO"
                         class="btn btn-full btn-s rounded-s text-uppercase font-900 gradient-highlight shadow-bg shadow-bg-s">Join Grup</a>
                 </div>
                 <div class="col-6">

@@ -49,7 +49,7 @@ Route::get('/topnotif', [NotifController::class, 'indexNotif']);
 
 Route::get('/schedule', function () {return view('Layout.comingsoon', ['schedule' => 'active-nav']);});
 
-Route::get('/media', function () {return view('Layout.comingsoon', ['media' => 'active-nav']);});
+Route::get('/media', function () {return view('media', ['media' => 'active-nav']);});
 
 Route::get('/sidebar', function () {return view('Layout.main-menu');});
 
