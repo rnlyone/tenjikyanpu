@@ -76,7 +76,7 @@
                             minimal mengutus 1 kelompok dan maksimal 2 kelompok. Lomba ini terdiri dari 3 sesi, antara
                             lain soal umum, Maru Batsu, dan rebutan. 3 kelompok dengan poin terbanyak akan lanjut ke
                             babak final.</p>
-                        <a href="cc" class="btn-full btn border border-red-dark color-red-dark">Lihat S/K</a>
+                        <a href="cc" class="btn-full btn border border-red-dark color-red-dark">Lihat Detail</a>
                     </div>
                     <div class="collapse" id="tab-5" data-bs-parent="#tab-group-2" style="">
                         <p style="text-align: justify">Lomba tersebut merupakan lomba perorangan. Tiap sekolah minimal
@@ -84,7 +84,7 @@
                             4 orang. Tiap peserta akan memilih 1 dari 4 opsi suara yang akan diperagakan yang terdiri
                             dari 2 suara laki-laki dan 2 suara perempuan. 3 peserta dengan poin terbanyak akan menjadi
                             pemenangnya.</p>
-                        <a href="seiyuu" class="btn-full btn border border-red-dark color-red-dark">Lihat S/K</a>
+                        <a href="seiyuu" class="btn-full btn border border-red-dark color-red-dark">Lihat Detail</a>
                     </div>
                 </div>
             </div>

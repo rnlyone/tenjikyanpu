@@ -31,6 +31,7 @@
                     administrasi</li>
                 <li>Peserta wajib memahami serta mematuhi Regulasi Umum, Regulasi Lomba, serta Tata
                     Tertib Umum</li>
+                <li>Peserta akan mengirimkan Video Berisi Scene, Suara, dan Kamera yang menunjukkan Peserta sedang Mengisi Suara.</li>
             </ul>
         </div>
     </div>
@@ -49,6 +50,28 @@
             </ul>
         </div>
     </div>
+
+    <div class="card card-style">
+        <div class="content">
+            <h6 class="font-700 mb-n1 color-highlight">Seiyuu</h6>
+            <h1 class="pb-2">Alur Pendaftaran</h1>
+            <p class="mb-3">
+                Alur Pendaftaran Lomba Tenji Kyanpu
+            </p>
+            <ol class="px-3 mb-0">
+                <li>Mengisi format pendaftaran yang telah diberikan oleh panitia. </li>
+                <li>Mengirim kembali format pendaftaran yang telah diisi ke panitia</li>
+                <li>Melakukan transaksi biaya registrasi sebesar Rp. 15.000,- / Orang</li>
+                <li>Mengirim bukti pembayaran ke panitia dengan mengirimkan (struk/dll).</li>
+                <li>Panitia akan mengirimkan nama akun user serta password web app Tenji Kyanpu.</li>
+                <li>Peserta diharapkan melakukan sign in pada web app Tenji Kyanpu.</li>
+                <li>Peserta juga diharapkan memantau informasi-informasi terbaru dari panitia.</li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+
     <div class="card card-style">
         <div class="content">
             <h6 class="font-700 mb-n1 color-highlight">Seiyuu</h6>
