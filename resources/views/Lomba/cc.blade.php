@@ -65,6 +65,7 @@
                 <li>Peserta diharapkan melakukan sign in pada web app Tenji Kyanpu.</li>
                 <li>Peserta juga diharapkan memantau informasi-informasi terbaru dari panitia.</li>
             </ol>
+            <a href="daftar" class="btn rounded-sm btn-m gradient-highlight text-uppercase font-700 mt-4 mb-3 btn-full shadow-bg shadow-bg-s">Daftar Sekarang</a>
         </div>
     </div>
 </div>

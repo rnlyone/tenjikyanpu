@@ -61,3 +61,4 @@ Route::get('/cc', function () {return view('Lomba.cc');});
 
 Route::get('/seiyuu', function () {return view('Lomba.seiyuu');});
 
+Route::get('/daftar', function () {return redirect()->to('https://api.whatsapp.com/send?phone=6282292729852&text=Halo%20Kak,%20Mau%20Ikut%20Lomba%20Tenji%20Kyanpu!!');});

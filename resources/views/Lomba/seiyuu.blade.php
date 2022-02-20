@@ -113,6 +113,7 @@
             <p>
                 Sket Dance Episode 01, Menit ke 16:02 Hingga 17:02
             </p>
+            <a href="daftar" class="btn rounded-sm btn-m gradient-highlight text-uppercase font-700 mt-4 mb-3 btn-full shadow-bg shadow-bg-s">Daftar Sekarang</a>
         </div>
     </div>
 </div>
