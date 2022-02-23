@@ -215,6 +215,8 @@
                     <option value="08">SMK Negeri 8 Makassar</option>
                     <option value="17">SMA Negeri 17 Makassar</option>
                     <option value="21">SMA Negeri 21 Makassar</option>
+                    <option value="Laniang">SMK Laniang Makassar</option>
+                    <option value="non_nihonbu">Non Anggota Nihonbu</option>
                 </select>
             </div>
             <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
