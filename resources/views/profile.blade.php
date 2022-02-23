@@ -25,6 +25,10 @@
                     SMK Negeri 8 Makassar
                     @elseif (auth()->user()->jc == '21')
                     SMA Negeri 21 Makassar
+                    @elseif (auth()->user()->jc == 'Laniang')
+                    SMK Laniang Makassar
+                    @elseif (auth()->user()->jc == 'non_nihonbu')
+                    Non Anggota Nihonbu Doumei
                     @endif
                 </p>
                 <p class="font-10">
