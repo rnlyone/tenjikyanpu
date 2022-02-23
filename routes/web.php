@@ -47,7 +47,7 @@ Route::get('/radio', function () {return view('radio', ['radio' => 'active-nav']
 Route::get('/notifications', function () {return view('notifications', ['notifications' => 'active-nav']);});
 Route::get('/topnotif', [NotifController::class, 'indexNotif']);
 
-Route::get('/schedule', function () {return view('Layout.comingsoon', ['schedule' => 'active-nav']);});
+Route::get('/schedule', function () {return view('schedule', ['schedule' => 'active-nav']);});
 
 Route::get('/media', function () {return view('media', ['media' => 'active-nav']);});
 
