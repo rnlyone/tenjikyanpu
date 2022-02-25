@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 
-    @php
+@php
     use App\Models\Notif;
 
     $ntotal = Notif::all()->count();
@@ -36,18 +36,6 @@
         <div class="spinner-border color-highlight" role="status"></div>
     </div>
     <div id="page">
-
-        <div class="header-bar header-fixed header-app header-bar-detached">
-            <a data-bs-toggle="offcanvas" data-bs-target="#menu-main" href="#"><i
-                    class="bi bi-list color-theme"></i></a>
-            <a href="#" class="header-title color-theme">
-                <img class="logo"></a>
-            <a href="#" data-bs-toggle="offcanvas" data-bs-target="#menu-bell"><em
-                    class="badge bg-highlight ms-1">{{$ntotal}}</em><i class="font-14 bi bi-bell-fill"></i></a>
-            <a href="#" class="show-on-theme-light" data-toggle-theme><i class="bi bi-moon-fill font-13"></i></a>
-            <a href="#" class="show-on-theme-dark" data-toggle-theme><i
-                    class="bi bi-lightbulb-fill color-yellow-dark font-13"></i></a>
-        </div>
 
         <div id="footer-bar" class="footer-bar footer-bar-detached">
             <a href="radio" class="{{$radio ?? ''}}"><i

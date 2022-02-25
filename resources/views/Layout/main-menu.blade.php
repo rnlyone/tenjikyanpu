@@ -79,7 +79,7 @@
         <a href="/notifhandler" id="nav-homes"><i
                 class="gradient-red shadow-bg shadow-bg-xs bi bi-house-fill"></i><span>Notification Handler</span><i
                 class="bi bi-chevron-right"></i></a>
-        <a href="radio" id="nav-comps"><i
+        <a href="/reqs" id="nav-comps"><i
                 class="gradient-red shadow-bg shadow-bg-xs bi bi-broadcast-pin"></i><span>Radio Requests</span><i
                 class="bi bi-chevron-right"></i></a>
         <a href="schedule" id="nav-pages"><i
